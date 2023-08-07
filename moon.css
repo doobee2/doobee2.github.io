@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 700px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: HakgyoansimWoojuR;
+    display: block;
+  }
+
+h1 {
+    position: relative;
+    transform: none;
+    color: #3b4ce2;
+}
+
+textarea {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    scrollbar-color: #3b4ce2;
+  }
+
+  label {
+    font-size: var(--nf-small-font-size);
+    color: #3b4ce2;
+    font-weight: 500;
+  }
+
+  form.input[type="radio"] {
+    width: 200px;
+    background-color: #919aec;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 5px;
+   margin-top: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+   background-color: #a2aaec;
+   font-family: HakgyoansimWoojuR;
+  }
+  input[type="reset"] {
+    transform: translate(2.2%);
+    padding: 5px;
+    margin-top: 0.6rem;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #a2aaec;
+    font-family: HakgyoansimWoojuR;
+   }
+
+ fieldset {
+   padding: 20px 40px;
+ }
+
+ input {
+    font-family: HakgyoansimWoojuR;
+    border-radius: 0.25rem;
+    border-color: #c0c4c9;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-color: #3b4ce2;
+    background-color: #f9fafb;
+  
+ }
+
+ textarea {
+    font-family: HakgyoansimWoojuR;
+    border-radius: 0.25rem;
+    border-color: #c0c4c9;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-color: #3b4ce2;
+    background-color: #f9fafb;
+  
+ }
+
+
